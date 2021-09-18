@@ -15,4 +15,6 @@
         <string name="_mult">X</string>
         <string name="_sub">-</string>
         <string name="_add">+</string>
+        <string name="_del">C</string>
+        <string name="_eq">=</string>
 </resources>

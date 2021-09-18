@@ -4,7 +4,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/girl">
-
+    <TextView
+        android:id="@+id/input_field_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="normal" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -131,7 +139,7 @@
             style="@style/Widget.AppCompat.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:text="@string/_0"
             android:textSize="14sp" />
         <Button
@@ -142,7 +150,6 @@
             android:layout_weight="1"
             android:text="@string/_point"
             android:textSize="14sp" />
-
         <Button
             android:id="@+id/button_add"
             style="@style/Widget.AppCompat.Button"
@@ -150,6 +157,22 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_add"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/button_del"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_del"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/button_eq"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_eq"
             android:textSize="14sp" />
     </LinearLayout>
     <Space

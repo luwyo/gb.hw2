@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+import android.content.Intent;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
             buttons.valueSecond = savedInstanceState.getDouble("valueSecond_key");
             buttons.temp = savedInstanceState.getDouble("temp_key");
         }
+
+        Button choiceTheme = findViewById(R.id.choice_theme);
+        choiceTheme.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, ChoiceTheme.class);
+            startActivity(intent);
+        });
 
         Button deleteAllValue = findViewById(R.id.button_del);
         deleteAllValue.setOnClickListener(view -> {

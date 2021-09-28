@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/blackback">
+
     <TextView
         android:id="@+id/input_field_text_view"
         android:layout_width="match_parent"
@@ -13,10 +14,16 @@
         android:textColor="@color/white"
         android:textSize="@dimen/text_size_45sp"
         android:textStyle="normal" />
-    <Space
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="@dimen/layout_weight" />
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/choice_theme"
+            style="@style/MyCalcChoiceStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/choice_themes" />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

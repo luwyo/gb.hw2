@@ -17,4 +17,7 @@
         <string name="_add">+</string>
         <string name="_del">C</string>
         <string name="_eq">=</string>
+        <string name="choice_themes">Сменить тему</string>
+        <string name="dark_theme">Тёмная</string>
+        <string name="white_theme">Светлая</string>
 </resources>

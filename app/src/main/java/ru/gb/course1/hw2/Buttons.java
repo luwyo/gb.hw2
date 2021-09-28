@@ -44,7 +44,7 @@ public class Buttons {
     }
 
     public boolean buttonComma() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat(".");
             return true;
         }
@@ -52,7 +52,7 @@ public class Buttons {
     }
 
     public boolean buttonNull() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("0");
             return true;
         }
@@ -60,7 +60,7 @@ public class Buttons {
     }
 
     public boolean buttonOne() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("1");
             return true;
         }
@@ -68,7 +68,7 @@ public class Buttons {
     }
 
     public boolean buttonTwo() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("2");
             return true;
         }
@@ -76,7 +76,7 @@ public class Buttons {
     }
 
     public boolean buttonThree() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("3");
             return true;
         }
@@ -84,7 +84,7 @@ public class Buttons {
     }
 
     public boolean buttonFour() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("4");
             return true;
         }
@@ -92,7 +92,7 @@ public class Buttons {
     }
 
     public boolean buttonFive() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("5");
             return true;
         }
@@ -100,7 +100,7 @@ public class Buttons {
     }
 
     public boolean buttonSix() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("5");
             return true;
         }
@@ -108,7 +108,7 @@ public class Buttons {
     }
 
     public boolean buttonSeven() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("7");
             return true;
         }
@@ -116,7 +116,7 @@ public class Buttons {
     }
 
     public boolean buttonEight() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("8");
             return true;
         }
@@ -124,7 +124,7 @@ public class Buttons {
     }
 
     public boolean buttonNine() {
-        if (stringInputTextView.length() <= 15 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
+        if (stringInputTextView.length() <= 12 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
             stringInputTextView = stringInputTextView.concat("9");
             return true;
         }
